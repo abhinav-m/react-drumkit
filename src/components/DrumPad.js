@@ -8,7 +8,7 @@ class DrumPad extends Component {
     };
     this.triggerAudio = this.triggerAudio.bind(this);
   }
-
+  l;
   triggerAudio(e) {
     //Get the 0th child node element and trigger it.
     const soundElement = e.target.childNodes[0];

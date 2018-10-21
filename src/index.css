@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
 }
 
 body {
@@ -18,25 +19,37 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.fa-heart {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+}
+
 #drum-machine {
   display: flex;
-  background: lightcoral;
+  background: beige;
   flex-direction: column;
   justify-content: center;
+  box-shadow: 5px 5px lightgrey;
   align-items: center;
   margin-top: 50px;
   margin-bottom: 50px;
-  padding-left: ;
+  border-radius: 10px;
 }
 
 #display {
   display: grid;
-  grid-template-columns: 200px 200px 200px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
 }
 
 .drum-pad {
   padding: 20px;
-  background: blue;
+  background: radial-gradient(black, grey);
+  color: white;
+  border-radius: 5px;
   width: 100px;
   height: 100px;
   line-height: 50px;

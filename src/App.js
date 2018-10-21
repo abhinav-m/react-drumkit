@@ -104,6 +104,27 @@ class App extends Component {
             <DrumPad data={soundInfo} handleKeyPress={this.handleKeyPress} />
           ))}
         </div>
+        <p>
+          <i className="fa fa-heart" aria-hidden="true" />
+        </p>
+        <p>
+          <a
+            href="https://github.com/abhinav-m"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Abhinav Mishra
+          </a>
+        </p>
+        <p>
+          <a
+            href="https://github.com/abhinav-m"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            अभिनव मिश्रा
+          </a>
+        </p>
       </div>
     );
   }
